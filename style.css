@@ -21,30 +21,6 @@ input {
   padding-left: 20px;
   border-radius: 25px;
 }
-div#btn_add_horizontal {
-  background-color: #00b0ff;
-  width: 20px;
-  height: 3px;
-  position: absolute;
-  top: 50%;
-  left: 300px;
-}
-div#btn_add_vertical {
-  background-color: #00b0ff;
-  width: 2px;
-  height: 45%;
-  position: absolute;
-  top: 30%;
-  left: 309px;
-}
-div#btn_hoaver {
-  position: absolute;
-  top: 30%;
-  left: 300px;
-  width: 20px;
-  height: 20px;
-  z-index: 1;
-}
 div#btn_hoaver:hover {
   cursor: pointer;
 }
@@ -53,4 +29,19 @@ p#todo {
   left: 49%;
   top: 35%;
   font-size: 22px;
+}
+input#btn_ {
+  position: absolute;
+  top: 6px;
+  left: 300px;
+  font-size: 40px;
+  width: 10%;
+  height: 70%;
+  text-align: center;
+  padding: 0%;
+  float: right;
+  background-color: rgb(170, 169, 183, 0);
+}
+input#btn_:hover {
+  cursor: pointer;
 }
