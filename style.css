@@ -1,8 +1,10 @@
-p#title {
+h1 {
   color: #00b0ff;
   font-size: 36px;
+  position: relative;
+  margin-top: 50px;
 }
-div#header {
+header {
   position: relative;
   top: 30%;
   left: 47.5%;
