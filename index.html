@@ -12,12 +12,15 @@
   <header>
     <h1>uTask</h1>
   </header>
-  <div id="task_bar">
-    <input type="text" id="task" name="task" placeholder="Nova tarefa">
-    <input type="text" placeholder="+" disabled id="btn_">
 
-  </div>
+  <form onsubmit="addTodo()">
+    <input type="text" id="task" name="task" placeholder="Nova tarefa">
+    <button type="submit" />
+  </form>
+
   <p id="todo">TODO</p>
+  <p id="done">DONE</p>
+  <script src="api.js"></script>
 </body>
 
 </html>
